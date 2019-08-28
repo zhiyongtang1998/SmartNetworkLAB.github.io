@@ -313,7 +313,7 @@ ol, ul {
 .paper_content li {
     line-height: 25px;
     padding-left: 30px;
-    background: url(/Users/ward/Test/paper-c.jpg) no-repeat 0px 11px;
+    background: url(picture/paper-c.jpg) no-repeat 0px 11px;
 }
 
 .paper_content li a {
