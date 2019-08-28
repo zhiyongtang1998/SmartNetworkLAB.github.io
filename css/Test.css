@@ -1,0 +1,329 @@
+*{
+padding:0px;
+margin:0px;
+}
+
+BODY, H1, H2, H3, H4, H5, H6, P, BLOCKQUOTE, DL, DT, DD, UL, OL, LI, PRE, FIELDSET, LEGEND, BUTTON, LABEL, ul {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    font-family: "PingFangSC-Light","Microsoft YaHei","WenQuanYi Micro Hei",arial,sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.top{
+
+	background: url(/Users/ward/Test/picture/SCUN.jpg) no-repeat;
+	background-size: 100% 100%;
+	width: 1265px;
+    margin: 0 auto;
+	height: 450px;
+	position: relative;
+}
+
+.nav{
+	width: 100%;
+	background-color:rgba(54, 54,54,0.8);
+	position: absolute;
+	bottom: 0;
+	height: 80px;
+}
+
+.nav_inside{
+    height: 80px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.nav_image{
+	width: 50px;
+	height: 50px;
+	padding-top: 15px;
+	/*margin-left: 40px;*/
+    float: left;
+
+}
+.nav_image>img{
+	width: 100%;
+	height: 100%;
+}
+.nav_heading{
+    float: left;
+	height: 80px;
+    margin-left: 10px;
+
+}
+.nav_heading>span{
+	line-height: 100px;
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: Arial;
+}
+.nav_nav{
+    float: right;
+    height: 80px;
+}
+
+/*#nav_nav:hover{
+	background-color: red;
+}*/
+
+.nav_nav div:hover{
+	background-color: rgba(0,191,255,0.4);
+}
+
+.nav_nav div{
+    float: left;
+    height: 80px;
+}
+.nav_nav div a{
+    display: block;
+    height: 80px;
+	text-decoration: none;
+	line-height: 80px;
+	color: white;
+	padding: 0 17px;
+	font-size: 18px;
+
+}
+
+.about_us{
+	width: 1200px;
+	margin: 0 auto;
+    padding: 60px 0px;
+}
+
+.title{
+	width: 1200px;
+    margin: 0px auto 44px;
+}
+
+.title h2{
+	font-size: 24px;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    color: #064f9e;
+}
+
+.title font{
+	width: 36px;
+    height: 5px;
+    background: #b7b7b7;
+    display: block;
+    margin: 10px auto 0px;
+}
+
+.info_left{
+	width: 563px;
+}
+
+.info{
+	width: 1200px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.info_content p{
+	text-indent: 0em;
+	text-align: justify;
+	font-size: 16px;
+    color: #222222;
+    line-height: 36px;
+}
+
+.info_img{
+	width: 560px;
+    height: 350px;
+    margin-top: 25px;
+    position: relative;
+    padding: 2px;
+    background:#222222;
+}
+.info_img img{
+	width: 100%;
+    height: 350px;
+    margin-top: 0px;
+}
+
+.info_right{
+	width: 590px;
+}
+
+.info_news_nav{
+	width: 590px;
+    border-top: 3px solid #999999;
+}
+
+.info_news_nav h1{
+	display: block;
+    font-size: 18px;
+    font-weight: bold;
+    color: #666666;
+    margin-top: 10px;
+}
+
+.info_list{
+	margin-top: 33px;
+}
+
+.info_list h2{
+    font-size: 16px;
+    color: #222222;
+    display: inline;
+    line-height: 25px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+.info_list h2 span{
+	font-size: 14px;
+    color: #8d8d8d;
+    padding-left: 20px;
+    display: inline-block;
+}
+.info_list p {
+    font-size: 14px;
+    color: #111111;
+    line-height: 28px;
+    margin-top: 10px;
+}
+
+.research_bg{
+	height: 830px;
+	background-color:#4682B4;
+}
+
+.research {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 40px 0px 60px;
+}
+
+.research_list{
+	width: 1200px;
+    margin: 0 auto;
+    height: 159px;
+    overflow: hidden;
+    margin-bottom: 46px;
+}
+
+.research_img {
+    width: 263px;
+    height: 155px;
+    overflow: hidden;
+    background: #fff;
+    padding: 2px;
+    position: relative;
+    float: left;
+}
+
+
+.research_img img {
+    width: 263px;
+    height: 155px;
+    overflow: hidden;
+    display: block;
+    position: absolute;
+}
+
+.research_content {
+    width: 907px;
+    float: right;
+}
+
+.research_content h1 {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.research_content p {
+    display: block;
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 30px;
+    text-indent: 0em !important;
+    text-align: justify;
+}
+
+.team{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 75px 0;
+}
+
+.team_member{
+    width: 1200px;
+    position: relative;
+    overflow: hidden;
+}
+
+.member_block{
+    margin-right: 40px;
+    width: 207px;
+    height: 300px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.member_img {
+    width: 161px;
+    height: 161px;
+    overflow: hidden;
+    margin: 22px 22px 20px;
+    border-radius: 106px;
+}
+
+.member_block h1{
+    font-size: 16px;
+    color: #333333;
+    text-align: center;
+}
+.member_block h2{
+    font-size: 16px;
+    color: #333333;
+    text-align: center;
+}
+
+.paper_bg {
+    background-color: #808080;
+    padding: 60px 0px;
+}
+
+.paper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.paper_content {
+    margin-top: 40px;
+}
+
+ol, ul {
+    list-style-type: none;
+}
+
+.paper_content li {
+    line-height: 25px;
+    padding-left: 30px;
+    background: url(/Users/ward/Test/paper-c.jpg) no-repeat 0px 11px;
+}
+
+.paper_content li a {
+    font-size: 16px;
+    color: #ffffff;
+    display: block;
+    line-height: 28px;
+    text-decoration: none;
+}
+.paper_content li+li {
+    margin-top: 20px;
+}
+
