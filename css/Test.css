@@ -338,7 +338,7 @@ ol, ul {
 }
 
 .contact_bg {
-    height: 652px;
+    height: 600px;
     background: url(../picture/SCUN_bottom.jpg) no-repeat;
     background-size:100% 100%;
 }   
@@ -396,4 +396,9 @@ ol, ul {
     width: 300px;
     height: 300px;
     margin-right: 100px;
+}
+
+.foot {
+    text-align: center;
+    background-color:#000000;
 }
