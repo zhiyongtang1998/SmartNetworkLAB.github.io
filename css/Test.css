@@ -327,7 +327,7 @@ ol, ul {
 }
 
 .projects_bg {
-    height: 586px;
+    height: 650px;
     position: relative;
 }
 
@@ -338,7 +338,7 @@ ol, ul {
 }
 
 .contact_bg {
-    height: 600px;
+    height: 630px;
     background: url(../picture/SCUN_bottom.jpg) no-repeat;
     background-size:100% 100%;
 }   
