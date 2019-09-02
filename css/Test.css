@@ -326,6 +326,74 @@ ol, ul {
     margin-top: 20px;
 }
 
-.bottom{
-    width: 100px;
+.projects_bg {
+    height: 586px;
+    position: relative;
+}
+
+.projects {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 70px 0px;
+}
+
+.contact_bg {
+    height: 652px;
+    background: url(../picture/SCUN_bottom.jpg) no-repeat;
+    background-size:100% 100%;
+}   
+
+.contact{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 120px 0px 0px;
+}
+
+.contact_left {
+    width: 558px;
+    float: left;
+}
+
+.info_left{
+    width: 550px;
+    margin-top: 28px;
+    margin-left: 15px;
+    float: left;
+}
+
+.info_left li {
+    font-size: 15px;
+    color: #fff;
+    padding-left: 30px;
+}
+
+.email {
+    background: url(../picture/pic-email.jpg)no-repeat 0px 4px;
+}
+
+.info_left li+li {
+    margin-top: 13px;
+}
+.info_left li {
+    font-size: 15px;
+    color: #fff;
+    padding-left: 30px;
+}
+.address {
+    background: url(../picture/pic-ardess.jpg) no-repeat 0px 2px;
+}
+
+.address_list {
+    float: right;
+    display: block;
+    width: 433px;
+    line-height: 27px;
+    font-size: 15px;
+}
+
+.contact_right{
+    float: right;
+    width: 300px;
+    height: 300px;
+    margin-right: 100px;
 }
