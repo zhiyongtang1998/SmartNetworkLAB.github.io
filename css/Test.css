@@ -352,6 +352,7 @@ ol, ul {
 .contact_left {
     width: 558px;
     float: left;
+
 }
 
 .info_left{
@@ -392,10 +393,9 @@ ol, ul {
 }
 
 .contact_right{
-    float: right;
-    width: 150px;
-    height: 150px;
-    margin-top: 200px;
+    width: 250px;
+    height: 250px;
+
 
 }
 
