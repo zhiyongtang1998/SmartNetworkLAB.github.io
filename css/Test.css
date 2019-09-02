@@ -392,14 +392,20 @@ ol, ul {
     font-size: 15px;
 }
 
-.contact_right{
+.map{
     width: 250px;
     height: 250px;
-
+    margin:auto;
 
 }
 
 .foot {
-    text-align: center;
     background-color:#000000;
+}
+
+.clear {
+    clear: both;
+}
+.visiter{
+        text-align: center;
 }
