@@ -122,10 +122,17 @@ h1, h2, h3, h4, h5, h6 {
 	width: 563px;
 }
 
-.info{
+.info_up{
 	width: 1200px;
 	display: flex;
 	justify-content: space-between;
+}
+
+.info_down{
+    width: 1200px;
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
 }
 
 .info_content p{
@@ -148,10 +155,29 @@ h1, h2, h3, h4, h5, h6 {
 	width: 100%;
     height: 350px;
     margin-top: 0px;
+    margin-right: 10px;
 }
 
 .info_right{
 	width: 590px;
+}
+
+.info_rightdown {
+    width: 530px;
+    margin-top: 28px;
+}
+
+.info_img_right{
+    margin-top: 80px;
+    width: 530px;
+    height: 350px;
+    padding: 2px;
+    background:#222222;
+}
+
+.info_img_right img{
+    width: 529px;
+    height: 350px;
 }
 
 .info_news_nav{
@@ -327,7 +353,6 @@ ol, ul {
 }
 
 .projects_bg {
-    height: 650px;
     position: relative;
 }
 
@@ -337,10 +362,38 @@ ol, ul {
     padding: 70px 0px;
 }
 
+.project_content {
+    width: 1120px;
+    background: url(../picture/projects.jpg) repeat center center;
+    padding: 60px 40px;
+    border-radius: 5px;
+}
+
+.project_list + .project_list {
+    margin-top: 20px;
+}
+
+.project_content h1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    border-bottom: 1px solid #93b6dd;
+    padding-bottom: 20px;
+}
+
+.project_content span {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 30px;
+    display: inline-block;
+}
+
 .contact_bg {
     height: 630px;
     background: url(../picture/SCUN_bottom.jpg) no-repeat;
     background-size:100% 100%;
+    border-bottom: 1px solid #fff;
 }   
 
 .contact{
