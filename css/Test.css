@@ -359,6 +359,7 @@ ol, ul {
 }
 
 .projects_bg {
+    border-top: 3px solid #999999;
     width: 79rem;
     position: relative;
 }
