@@ -323,6 +323,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .paper_bg {
+    width: 100%;
     background-color: #808080;
     padding: 60px 0px;
 }
