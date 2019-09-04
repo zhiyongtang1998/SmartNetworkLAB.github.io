@@ -285,6 +285,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .team_bg{
+    width: 100%;
     border-top: 3px solid #999999;
 }
 
