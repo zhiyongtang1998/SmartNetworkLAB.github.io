@@ -405,7 +405,7 @@ ol, ul {
 
 .contact_bg {
     width: 79rem;
-    height: 500px;
+    height: 400px;
     background: url(../picture/SCUN_bottom.jpg) no-repeat;
     background-size:100% 100%;
     border-bottom: 3px solid #999999;
@@ -414,7 +414,7 @@ ol, ul {
 .contact{
     width: 1200px;
     margin: 0 auto;
-    padding: 120px 0px 0px;
+    padding: 50px 0px 0px;
 }
 
 .contact_left {
