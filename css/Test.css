@@ -16,7 +16,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .All{
-    width: 100%;
+    width: 79rem;
+    margin: 0 auto;
 }
 
 .top{
