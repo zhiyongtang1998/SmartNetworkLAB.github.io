@@ -15,22 +15,23 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
 }
 
-.All{
+/*.All{
     width: 79rem;
     margin: 0 auto;
-}
+}*/
 
 .top{
 	background: url(../picture/SCUN.jpg) no-repeat;
 	background-size: 100% 100%;
-	width: 1265px;
+    width: 100%;
+	/*width: 1265px;*/
     margin: 0 auto;
 	height: 450px;
 	position: relative;
 }
 
 .nav{
-	width: 79rem;
+	width: 100%;
 	background-color:rgba(54, 54,54,0.8);
 	position: absolute;
 	bottom: 0;
