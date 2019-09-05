@@ -423,6 +423,11 @@ ol, ul {
 
 }
 
+.contact_right{
+    width: 350px;
+    float: right;
+}
+
 .info_left{
     width: 550px;
     margin-top: 28px;
@@ -467,14 +472,14 @@ ol, ul {
 
 }
 
-.foot {
+/*.foot {
     background-color:#000000;
     width: 79rem;
-}
+}*/
 
-.clear {
+/*.clear {
     clear: both;
 }
 .visiter{
-        text-align: center;
-}
+        /*text-align: center;*/
+}*/
