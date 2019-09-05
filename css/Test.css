@@ -293,7 +293,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .team_bg{
-    width: 79rem;
+    /*width: 79rem;*/
     border-top: 3px solid #999999;
 }
 
@@ -331,7 +331,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .paper_bg {
-    width: 79rem;
+    /*width: 79rem;*/
     background-color: #808080;
     padding: 60px 0px;
 }
@@ -368,7 +368,7 @@ ol, ul {
 
 .projects_bg {
     border-top: 3px solid #999999;
-    width: 79rem;
+    /*width: 79rem;*/
     position: relative;
 }
 
@@ -406,7 +406,7 @@ ol, ul {
 }
 
 .contact_bg {
-    width: 79rem;
+    /*width: 79rem;*/
 /*    height: 400px;*/
     /*background: url(../picture/SCUN_bottom.jpg) no-repeat;*/
     /*background-size:100% 100%;*/
