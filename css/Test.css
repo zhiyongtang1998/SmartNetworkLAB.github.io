@@ -406,9 +406,10 @@ ol, ul {
 .contact_bg {
     width: 79rem;
     height: 400px;
-    background: url(../picture/SCUN_bottom.jpg) no-repeat;
-    background-size:100% 100%;
-    border-bottom: 3px solid #999999;
+    /*background: url(../picture/SCUN_bottom.jpg) no-repeat;*/
+    /*background-size:100% 100%;*/
+    /*border-bottom: 3px solid #999999;*/
+    background-color: #000;
 }   
 
 .contact{
