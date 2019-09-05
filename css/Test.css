@@ -405,14 +405,14 @@ ol, ul {
 
 .contact_bg {
     width: 79rem;
-    height: 400px;
+/*    height: 400px;*/
     /*background: url(../picture/SCUN_bottom.jpg) no-repeat;*/
     /*background-size:100% 100%;*/
     /*border-bottom: 3px solid #999999;*/
-    background-color: #000;
+    background-color: #fff;
 }   
 
-.contact{
+/*.contact{
     width: 1200px;
     margin: 0 auto;
     padding: 50px 0px 0px;
@@ -453,8 +453,8 @@ ol, ul {
     font-size: 15px;
     color: #fff;
     padding-left: 30px;
-}
-.address {
+}*/
+/*.address {
     background: url(../picture/pic-ardess.jpg) no-repeat 0px 2px;
 }
 
@@ -464,7 +464,7 @@ ol, ul {
     width: 433px;
     line-height: 27px;
     font-size: 15px;
-}
+}*/
 
 .map{
     width: 250px;
@@ -480,7 +480,7 @@ ol, ul {
 
 /*.clear {
     clear: both;
-}
-.visiter{
-        /*text-align: center;*/
 }*/
+.visiter{
+        text-align: center;
+}
